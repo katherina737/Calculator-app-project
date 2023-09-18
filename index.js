@@ -5,9 +5,14 @@ var calculation;
 
 function calculate(button){
     var value = button.textContent;
-    if (value ==="C"){
+    if (value ==="CE"){
         listOfNumbers = [];
         screen.textContent = "0";
+    }
+    else if (value==="C"){
+        listOfNumbers = listOfNumbers.slice(0,listOfNumbers.length -1);
+        calculation = listOfNumbers.join('');
+        screen.textContent = calculation;
     }
     else if (value === "=") {
         screen.textContent = eval(calculation);
