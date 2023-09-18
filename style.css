@@ -1,0 +1,99 @@
+body{
+    background-color: #2F3E75;
+}
+
+h1{
+    color: white;
+}
+
+h4{
+    color: white;
+}
+
+.app-name{
+    text-align: center;
+
+}
+
+.my-name{
+    text-align: center;
+}
+
+.calc{
+    margin:auto;
+    position: relative;
+    border-radius: 10%;
+    width: 450px;
+    height: 650px;
+    background-color: #900C3F;
+    padding: 30px;
+}
+
+.display{
+    text-align: right;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-radius: 8%;
+    height: 120px;
+    background-color: #b2b99c;
+}
+
+
+.calc-body{
+    border-radius: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 20px;
+    padding: 20px;
+    height: 450px;
+    background-color:  #22A699;
+}
+
+
+.calc-buttons {
+    margin: 10px;
+    width: 80px;
+    border-radius: 20%;
+    height: 60px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #F2BE22;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    border: none;
+    box-shadow: 0 5px #4e4733;
+  }
+  #symbol{
+    margin: 10px;
+    width: 80px;
+    border-radius: 20%;
+    height: 60px;
+    background-color: rgb(230, 92, 29);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    border: none;
+    box-shadow: 0 5px #4e4733;
+
+  }
+  
+  .calc-buttons:hover {background-color: #81650f}
+  
+  .calc-buttons:active {
+    background-color: #81650f;
+    box-shadow: 0 5px #4e4733;
+    transform: translateY(4px);
+  }
