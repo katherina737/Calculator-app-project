@@ -4,7 +4,7 @@ body{
 }
 
 #grad {
-    background-image: linear-gradient(to bottom right, #213555,#164B60, #2F3E75,#5A96E3, #35A29F,);
+    background-image: linear-gradient(to bottom right, #213555,#164B60, #2F3E75,#5A96E3, #35A29F);
     height: 1000px;
   }
 
