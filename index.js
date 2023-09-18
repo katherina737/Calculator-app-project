@@ -1,5 +1,5 @@
 var buttons = document.querySelectorAll("button");
-var screen = document.querySelector('.display');
+var screen = document.querySelector(".display");
 var listOfNumbers = [];
 var calculation;
 
@@ -20,5 +20,5 @@ function calculate(button){
 }
 
 screen.textContent = "0";
-buttons.forEach(button => button.addEventListener('click', () => calculate(button)));
+buttons.forEach(button => button.addEventListener("click", () => calculate(button)));
 
