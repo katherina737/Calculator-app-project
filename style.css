@@ -126,24 +126,17 @@ h4{
         margin:10px;
         
     }
-    .calc-buttons {
-        margin-left: -5px;
-        width: 20px;
-        height: 40px;
-        font-size: 10px;
-        text-align: center;
 
-      }
-      #symbol{
-        margin-left: -5px;
-        /* margin: 10px; */
-        width: 20px;
+    .calc-buttons,#symbol {
+        margin-left: -2px;
+        margin-bottom: 6px;
+        padding-left: 20px;
+        width: 15px;
         height: 40px;
         font-size: 10px;
-        font-weight: bold;
         text-align: center;
-    
-      }
+    }
+
 }
 
 @media (min-width: 482px) and (max-width:1200px){
