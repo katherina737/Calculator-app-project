@@ -108,6 +108,11 @@ h4{
   /* ---------------------------------- */
 
   @media (max-width: 481px){
+    #grad {
+        background-image: linear-gradient(to bottom right,#164B60, #2F3E75,#5A96E3, #35A29F);
+        height: 700px;
+      }
+
     .calc{
         width: 260px;
         height: 450px;
